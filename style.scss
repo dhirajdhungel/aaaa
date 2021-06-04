@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Fira+Code:wght@300&display=swap');
+$small : 580px;
+body{ 
+    padding: 0;
+    margin: 0;
+}
+.screen{
+        background-color: #212121;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-around;
+
+        .text-area{
+                margin-left: 5%;
+                display: flex;
+                justify-content: center;
+                font-family: 'Fira Code', monospace;
+                font-size: 20px;
+                flex-flow: column;
+                p{
+                    border: none;
+                    margin: 5px;
+                }
+                    .line1{ color: #20c2f8; 
+                    }
+                    .line2{color: #2CCC71; 
+                    }
+                    .line3{
+                        color: #FFB046;
+                            a{
+                                color: #5bc3e6;
+                                text-decoration: none;
+                            }
+
+                            a:hover{
+                                 text-shadow: 1px 1px 5px #b0e9fc;
+                            }
+                        
+                    }
+        }
+
+        footer{
+            display: flex;
+            align-items: flex-end;
+            margin-left: 5%;
+            p{
+                font-family: 'Fira Code', monospace;
+                font-size: 15px;
+                color: #c2c2c2;
+
+            }
+            
+        }
+}
